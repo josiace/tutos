@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+<title>{% block title %}acceuil{% endblock %}</title>
+{% block content %}
+
+    <div class="en_tete">
+        {% for acceuil in acceuils %}
+        <h1 class="titre">Bienvenue sur {{acceuil.titre}}</h1>
+        
+        
+        <p>{{acceuil.description}}</p>
+        {% endfor %}
+    </div>
+
+{% endblock %}

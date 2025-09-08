@@ -1,0 +1,22 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+    background:linear-gradient(0deg ,#11074e, #4522e0 );
+    background-repeat: none;
+    
+}
+nav a {
+    display:flex;
+    justify-content: space-around;
+    color: rgb(241, 239, 255);
+    background: #311a98;
+    text-decoration: none;
+/* {{}} */
+}
+.titres{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}

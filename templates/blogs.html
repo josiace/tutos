@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+<title>{% block title %}Blogs{% endblock %}</title>
+{% block content %}
+    <h1 class="titre">tuto</h1>
+    {% for conten in contenus %}
+    <h1 class="titres">{{conten.titre}}</h1>
+    <p>{{conten.blog}}</p>
+    <p>{{conten.auteur}}</p>
+    <p>{{conten.mail}}</p>
+    <p>{{conten.date_creation}}</p>
+    <p>{{conten.lien}}</p>
+    {% endfor %}
+
+
+{% endblock %}
